@@ -1,0 +1,55 @@
+.myDiv{
+    background-color:lightgreen;
+    text-align: center;
+    padding: 20px;
+    width: 30%;
+    margin: auto;
+}
+.myButtons{
+    border: 2px solid black;
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.firstClass{
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    background-color: aqua;
+    display: block;
+}
+
+.secondClass {
+    border: 2px solid black;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 35%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    background-color: burlywood;
+    display: none;
+}
+
+#toggleButton {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.toggleButton {
+    border: 2px solid black;
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
