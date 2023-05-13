@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Nando Studies - 2023/05/12</title>
+    <link href="StyleSheet.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="myDiv">
+        <h1>This is a test for changing background</h1>
+        <h3 id="textColor"></h3>
+        <p>
+            We are using JavaScript to change the background of this div right away.
+            Our studies are based on the need of the practice of this important tool.
+        </p>
+    </div>
+    <div class="myButtons">
+        <button value="red">Red</button>
+        <button value="blue">Blue</button>
+        <button value="green">Green</button>
+        <button value="yellow">Yellow</button>
+    </div>
+
+    <div class="toggle">
+        <div data-class class="firstClass">
+            <h1>First Class</h1>
+            <p>In this case we are trying to switch between classes using a button</p>
+        </div>
+
+        <div data-class class="secondClass">
+            <h1>Second Class</h1>
+            <p>And now, if you are seeing this, we managed to switch between classes.</p>
+        </div>
+    </div>
+    <div class="toggleButton">
+        <button id="toggleButton">Toggle the div!</button>
+    </div>
+    <script src="file.js"></script>
+</body>
+</html>
