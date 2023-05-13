@@ -1,0 +1,30 @@
+const buttonGroup = document.querySelector('.myButtons');
+const divText = document.querySelector('.myDiv');
+const textColor = document.querySelector('#textColor');
+
+const buttonGroupPressed = (e) => {
+    const isButton = e.target.nodeName === 'BUTTON';
+    if (!isButton) {
+        return
+    }
+
+    textColor.innerHTML = String(e.target.value);
+    divText.style.backgroundColor = e.target.value;
+}
+buttonGroup.addEventListener('click', buttonGroupPressed);
+
+let toggleButton = document.querySelector('#toggleButton');
+let toggled = document.querySelectorAll('[data-class]');
+let test = document.querySelector('.toggle')
+
+function toggleClass() {
+    if (toggled[0] == toggled[1] ) {
+        toggled[0].style.display == "block"
+        toggled[1].style.display == "none"
+    } else {
+        toggled[0].style.display == "none"
+        toggled[1].style.display == "block"
+    }
+}
+
+toggleButton.addEventListener('click', toggleClass);
